@@ -1,4 +1,4 @@
-# React-Spotify 🎺🎸🎻🎤
+# Spotify Clone 🎺🎸🎻🎤
 
 This is `React-Spotify` - a React front end client that communicates with the Spotify API.
 
