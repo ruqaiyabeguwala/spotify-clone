@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Get the full pathname after your base path (e.g., /spotify-clone)
+      const path = window.location.pathname
+        .replace(/^\/spotify-clone/, '')  // Remove the base path
+        .replace(/\/+$/, '');             // Remove trailing slash(es)
+
+      // Redirect to index.html with hash route
+      const newUrl = '/spotify-clone/#' + path + window.location.search + window.location.hash;
+      window.location.replace(newUrl);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
